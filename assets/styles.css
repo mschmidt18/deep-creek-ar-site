@@ -1,0 +1,281 @@
+/* Deep Creek Lake Rental Spotter — site stylesheet.
+   Pure CSS, no JS, no external resources: the privacy page promises the site
+   loads nothing third-party, and this file keeps that promise.
+   Palette and composition follow the app's lake branding
+   (docs/superpowers/specs/2026-08-08-lake-branding-design.md in the app repo):
+   navy gradient #0F2445→#214D6B, moonlight #C8E1FF, white alpha ramp,
+   shoreline silhouette watermark. */
+
+:root {
+  --navy-top: #0F2445;
+  --navy-bottom: #214D6B;
+  --moon: #C8E1FF;
+  --ink: rgba(255, 255, 255, 0.92);
+  --ink-soft: rgba(255, 255, 255, 0.75);
+  --ink-faint: rgba(255, 255, 255, 0.62);
+  --hairline: rgba(200, 225, 255, 0.22);
+  --frost: rgba(255, 255, 255, 0.07);
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+  color: var(--ink);
+  background: fixed linear-gradient(180deg, var(--navy-top) 0%, var(--navy-bottom) 100%);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Faint chart graticule over the gradient — a nautical-chart texture, not a UI grid. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    repeating-linear-gradient(0deg, rgba(200, 225, 255, 0.045) 0 1px, transparent 1px 96px),
+    repeating-linear-gradient(90deg, rgba(200, 225, 255, 0.045) 0 1px, transparent 1px 96px);
+  pointer-events: none;
+}
+
+/* Shoreline silhouette watermark, composed like the app's far-from-lake screen:
+   oversized, hanging off the top-left, ghost-faint. */
+.lake-watermark {
+  position: fixed;
+  z-index: -1;
+  top: -6vh;
+  left: -30vw;
+  width: 166vw;
+  max-width: none;
+  opacity: 0.13;
+  pointer-events: none;
+  user-select: none;
+}
+.lake-watermark.faint { opacity: 0.07; }
+
+.page {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ---------- header / footer ---------- */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.6rem 0 1.2rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.brand img {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.4rem;
+  font-size: 0.95rem;
+}
+.site-nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--moon); }
+
+.site-footer {
+  margin-top: 5rem;
+  padding: 2rem 0 3rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+}
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.95rem;
+}
+.site-footer nav a { color: var(--ink-soft); text-decoration: none; }
+.site-footer nav a:hover { color: var(--moon); }
+.site-footer .fineprint { max-width: 38rem; }
+
+/* ---------- shared text elements ---------- */
+
+a { color: var(--moon); }
+a:focus-visible, .site-nav a:focus-visible, .site-footer nav a:focus-visible {
+  outline: 2px solid var(--moon);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--moon);
+  opacity: 0.85;
+}
+
+h1 {
+  font-size: clamp(2.1rem, 6vw, 3.1rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+  margin: 0.7rem 0 1rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 650;
+  margin: 2.6rem 0 0.7rem;
+}
+
+h2 .index {
+  font-family: var(--mono);
+  font-size: 0.75em;
+  color: var(--moon);
+  opacity: 0.8;
+  margin-right: 0.55em;
+}
+
+p { color: var(--ink-soft); margin-bottom: 0.9rem; }
+p strong { color: var(--ink); font-weight: 600; }
+ul { margin: 0 0 0.9rem 1.2rem; color: var(--ink-soft); }
+li { margin-bottom: 0.45rem; }
+
+.lede {
+  font-size: 1.15rem;
+  line-height: 1.55;
+  max-width: 36rem;
+}
+
+/* ---------- landing ---------- */
+
+.hero { padding: 3.5rem 0 1rem; }
+
+.pill {
+  display: inline-block;
+  margin-top: 1.3rem;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: var(--frost);
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.pill .dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--moon);
+  margin-right: 0.55em;
+  vertical-align: 1px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 3rem 0 0;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+.stats div {
+  flex: 1 1 8rem;
+  padding: 1rem 1.2rem 1.1rem 0;
+}
+.stats dt {
+  font-family: var(--mono);
+  font-size: 1.35rem;
+  color: var(--ink);
+}
+.stats dd {
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.steps {
+  list-style: none;
+  margin: 1.4rem 0 0;
+  display: grid;
+  gap: 1rem;
+}
+.steps li {
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  background: var(--frost);
+  padding: 1.1rem 1.3rem;
+  margin: 0;
+}
+.steps .num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  color: var(--moon);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+.steps h3 { font-size: 1.02rem; font-weight: 650; margin-bottom: 0.25rem; }
+.steps p { margin: 0; font-size: 0.95rem; }
+
+/* Staggered load-in, landing only. */
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    opacity: 0;
+    transform: translateY(14px);
+    animation: rise 0.7s cubic-bezier(0.22, 0.9, 0.3, 1) forwards;
+  }
+  .rise:nth-child(2) { animation-delay: 0.08s; }
+  .rise:nth-child(3) { animation-delay: 0.16s; }
+  .rise:nth-child(4) { animation-delay: 0.24s; }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+}
+
+/* ---------- support / privacy ---------- */
+
+.doc { padding-top: 2.5rem; }
+.doc-meta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin-bottom: 2rem;
+}
+
+.card {
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  background: var(--frost);
+  padding: 1.2rem 1.4rem;
+  margin: 1.6rem 0;
+}
+.card p:last-child { margin-bottom: 0; }
+
+@media (max-width: 480px) {
+  .site-header { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
+  .stats div { flex-basis: 45%; }
+}

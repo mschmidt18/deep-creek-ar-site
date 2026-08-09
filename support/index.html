@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Deep Creek Lake Rental Spotter</title>
+<meta name="description" content="Support and frequently asked questions for the Deep Creek Lake Rental Spotter iPhone app.">
+<meta name="theme-color" content="#0F2445">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<img class="lake-watermark faint" src="../assets/lake-hero.png" alt="" aria-hidden="true">
+
+<div class="page">
+  <header class="site-header">
+    <a class="brand" href="../"><img src="../assets/apple-touch-icon.png" alt="">Deep Creek Lake Rental Spotter</a>
+    <nav class="site-nav">
+      <a href="./" aria-current="page">Support</a>
+      <a href="../privacy/">Privacy</a>
+    </nav>
+  </header>
+
+  <main class="doc">
+    <p class="kicker">Support</p>
+    <h1>How can we help?</h1>
+    <p class="lede">Deep Creek Lake Rental Spotter identifies vacation rentals at Deep Creek Lake,
+    Maryland: point the camera at a lakefront house and it's labeled with the rental
+    agency's name, distance, and a link to the agency's own listing.</p>
+
+    <div class="card">
+      <p><strong>Need help, found a bug, or spotted a wrong pin?</strong>
+      Support is handled through
+      <a href="https://github.com/mschmidt18/deep-creek-ar-site/issues">GitHub Issues</a> —
+      <a href="https://github.com/mschmidt18/deep-creek-ar-site/issues/new">open a new issue</a>
+      and it will be seen. Browsing existing issues needs no account; filing a new one
+      takes a free GitHub account.</p>
+    </div>
+
+    <h2>Why does the app ask for location and camera?</h2>
+    <p><strong>Location (While Using)</strong> is what makes the app work: your position and
+    compass heading decide which properties are in front of you. Without it, nothing
+    can be placed, and the app shows an explainer screen instead.</p>
+    <p><strong>Camera</strong> is the live view the labels are drawn over. Declining it is not
+    fatal — labels are drawn over a placeholder backdrop instead, with a banner
+    saying so. Both are used entirely on your device; see the
+    <a href="../privacy/">privacy policy</a>.</p>
+
+    <h2>Does it work without cell service?</h2>
+    <p>Yes. The full property database ships inside the app, so identification works
+    with no signal at all — GPS itself needs no data connection. When you're online,
+    the app automatically picks up the latest property data from this site; there's
+    nothing to configure. Property thumbnails and listing pages do need a
+    connection, since they load from the rental agencies' own sites.</p>
+
+    <h2>It says I'm miles from Deep Creek Lake</h2>
+    <p>The Spotter view is built around the lake, so far from it the app shows a
+    distance screen with two choices: <strong>Preview from the lake</strong>, which parks a
+    simulated position in a McHenry cove while your device's real compass drives the
+    view, and <strong>Open Map</strong>, which works anywhere in the world.</p>
+
+    <h2>Markers seem misplaced or jittery</h2>
+    <p>Marker placement is only as good as the phone's compass. If labels look
+    rotated or drift, the app will prompt you to calibrate — wave the phone in a
+    figure-eight pattern — and settles once GPS accuracy improves. Metal boat
+    hardtops and dashboards can interfere with the compass; moving the phone away
+    from them helps.</p>
+
+    <h2>A property is wrong or missing</h2>
+    <p>The database is compiled from the two agencies' public listing pages and
+    refreshed periodically. A wrong location, a missing rental, or one that's no
+    longer listed is a data issue — please
+    <a href="https://github.com/mschmidt18/deep-creek-ar-site/issues/new">report it</a>
+    with the property name and it will be corrected in the next data update.</p>
+
+    <h2>Where do I book?</h2>
+    <p>On the agency's own website. The app links every property to its listing at
+    Railey Vacations or Taylor-Made Deep Creek Vacations, where current photos,
+    availability, and booking live. The app has no booking flow, shows no prices,
+    and takes no commission.</p>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../">Home</a>
+      <a href="../privacy/">Privacy Policy</a>
+      <a href="https://github.com/mschmidt18/deep-creek-ar-site/issues">GitHub Issues</a>
+    </nav>
+    <p class="fineprint">Deep Creek Lake Rental Spotter is an independent app. It is not affiliated with,
+    endorsed by, or sponsored by Railey Vacations (deepcreek.com) or Taylor-Made Deep
+    Creek Vacations (deepcreekvacations.com). Property data is compiled from those
+    agencies' public listing pages and always links back to them.</p>
+  </footer>
+</div>
+</body>
+</html>
