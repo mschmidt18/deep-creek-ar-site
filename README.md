@@ -4,6 +4,7 @@ Public site and hosted dataset for **Deep Creek Lake Rental Spotter**, an iPhone
 app that identifies vacation rentals at Deep Creek Lake, MD by pointing the
 camera at lakefront properties from a boat or car.
 
+- **App Store:** https://apps.apple.com/us/app/deep-creek-lake-rental-spotter/id6799663323
 - Live site: https://mschmidt18.github.io/deep-creek-ar-site/
 - [Support](https://mschmidt18.github.io/deep-creek-ar-site/support/) ·
   [Privacy Policy](https://mschmidt18.github.io/deep-creek-ar-site/privacy/)

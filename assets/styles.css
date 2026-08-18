@@ -1,8 +1,7 @@
 /* Deep Creek Lake Rental Spotter — site stylesheet.
-   Pure CSS, no JS, no external resources: the privacy page promises the site
-   loads nothing third-party, and this file keeps that promise.
-   Palette and composition follow the app's lake branding
-   (docs/superpowers/specs/2026-08-08-lake-branding-design.md in the app repo):
+   Pure CSS, no JS, no external resources: everything the page renders is served
+   from this origin.
+   Palette and composition follow the app's lake branding:
    navy gradient #0F2445→#214D6B, moonlight #C8E1FF, white alpha ramp,
    shoreline silhouette watermark. */
 
@@ -174,24 +173,33 @@ li { margin-bottom: 0.45rem; }
 
 .hero { padding: 3.5rem 0 1rem; }
 
-.pill {
-  display: inline-block;
+/* App Store call to action. The badge is Apple's own artwork, kept in
+   assets/app-store-badge.svg rather than hotlinked from Apple's CDN, so the page
+   has no external render dependency and the badge can't shift layout on load.
+   Per Apple's identity guidelines it is never recolored, cropped, or animated,
+   is kept at its native 119.664:40 aspect, and carries clear space of at least
+   10% of its height on every side. */
+.cta {
+  display: flex;              /* not inline flow: no line-box gap under the badge */
+  align-items: flex-start;
   margin-top: 1.3rem;
-  padding: 0.55rem 1.1rem;
-  border: 1px solid var(--hairline);
-  border-radius: 999px;
-  background: var(--frost);
-  font-size: 0.9rem;
-  color: var(--ink);
 }
-.pill .dot {
+
+.badge-link {
   display: inline-block;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--moon);
-  margin-right: 0.55em;
-  vertical-align: 1px;
+  line-height: 0;
+  padding: 5px;            /* >= 10% of the 48px badge height, on all sides */
+  margin: -5px;            /* keeps the visual edge aligned with the text above */
+  border-radius: 12px;
+}
+.badge-link img {
+  display: block;
+  width: 144px;
+  height: 48px;
+}
+.badge-link:focus-visible {
+  outline: 2px solid var(--moon);
+  outline-offset: 0;
 }
 
 .stats {
