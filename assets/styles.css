@@ -1,6 +1,7 @@
 /* Deep Creek Lake Rental Spotter — site stylesheet.
-   Pure CSS, no JS, no external resources: everything the page renders is served
-   from this origin.
+   Pure CSS, no external resources: everything the page renders is served from
+   this origin. The only JS is the landing page's inline snippet that reads the
+   rental count from the hosted dataset (same origin).
    Palette and composition follow the app's lake branding:
    navy gradient #0F2445→#214D6B, moonlight #C8E1FF, white alpha ramp,
    shoreline silhouette watermark. */

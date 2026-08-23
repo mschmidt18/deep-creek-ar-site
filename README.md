@@ -8,8 +8,10 @@ camera at lakefront properties from a boat or car.
 - Live site: https://mschmidt18.github.io/deep-creek-ar-site/
 - [Support](https://mschmidt18.github.io/deep-creek-ar-site/support/) ·
   [Privacy Policy](https://mschmidt18.github.io/deep-creek-ar-site/privacy/)
-- `data/properties.json` — the property dataset the app fetches on launch,
-  published from the app repo's pipeline (`scripts/publish_site_data.py` there).
+- `data/properties-v2.json` — the property dataset current app builds fetch on
+  launch, published from the app repo's pipeline (`scripts/publish_site_data.py`
+  there). `data/properties.json` is the frozen generation-1 feed that shipped
+  v1.0 builds still poll; it is never edited.
 
 Questions, bug reports, and data corrections: use
 [Issues](https://github.com/mschmidt18/deep-creek-ar-site/issues).
