@@ -1,10 +1,10 @@
 {
   "counts": {
-    "railey": 527,
-    "redbarn": 84,
-    "taylormade": 371
+    "railey": 525,
+    "redbarn": 83,
+    "taylormade": 367
   },
-  "generatedAt": "2026-08-18T02:12:20.764824+00:00",
+  "generatedAt": "2026-08-25T13:19:43.459472+00:00",
   "properties": [
     {
       "accessType": "lakeaccess",
@@ -22,6 +22,23 @@
       "sleeps": 16,
       "slug": "1st-birdie",
       "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/a2b50e26-2d42-4416-acd9-535a67655729&settings=default"
+    },
+    {
+      "accessType": "lakeaccess",
+      "agency": "railey",
+      "baths": 6.5,
+      "beds": 6,
+      "community": "North Camp",
+      "coordSource": "js",
+      "id": "railey-566-fork-run-tbd",
+      "lat": 39.539219,
+      "listingURL": "https://www.deepcreek.com/vacation-rentals/566-fork-run-tbd",
+      "lon": -79.38956,
+      "name": "566 Fork Run - TBD",
+      "petFriendly": false,
+      "sleeps": 10,
+      "slug": "566-fork-run-tbd",
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/328dea24-9a7d-4a33-9b02-fd8022fd7e88&settings=default"
     },
     {
       "accessType": "lakefront",
@@ -208,7 +225,7 @@
       "petFriendly": true,
       "sleeps": 12,
       "slug": "adventures-paradise",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/f03949d9-3fcb-4c25-b6a7-c0f7451d824b&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/bfdff379-3e46-4f05-957b-c5c3fae7f1fc&settings=default"
     },
     {
       "accessType": "lakeaccess",
@@ -225,7 +242,7 @@
       "petFriendly": false,
       "sleeps": 14,
       "slug": "afterglow",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/fdcba887-8388-4073-85c3-a507f27bcc4c&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/ebb2c9f5-6ee4-45b0-9d3e-9a2ea332925b&settings=default"
     },
     {
       "accessType": "lakeaccess",
@@ -353,14 +370,14 @@
       "beds": 7,
       "community": "Lodestone Village",
       "coordSource": "js",
-      "id": "railey-alpine-skitee",
+      "id": "railey-alpine-ski-tee",
       "lat": 39.531822,
-      "listingURL": "https://www.deepcreek.com/vacation-rentals/alpine-skitee",
+      "listingURL": "https://www.deepcreek.com/vacation-rentals/alpine-ski-tee",
       "lon": -79.377801,
-      "name": "Alpine Ski&Tee",
+      "name": "Alpine Ski & Tee",
       "petFriendly": false,
       "sleeps": 18,
-      "slug": "alpine-skitee",
+      "slug": "alpine-ski-tee",
       "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/cdfd0cd9-7f75-4686-92bb-1ae6bfdb64fb&settings=default"
     },
     {
@@ -1245,7 +1262,7 @@
       "petFriendly": false,
       "sleeps": 12,
       "slug": "blue-mountain-cabin",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/bb62f444-1dd2-4be2-acaa-912d9cdfcec5&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/7b9b748f-49aa-45d8-b768-3ddfc12893b6&settings=default"
     },
     {
       "accessType": "other",
@@ -1690,23 +1707,6 @@
       "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/1a7aeda8-1126-4b5b-bdab-c6e102fe4534&settings=default"
     },
     {
-      "accessType": "lakefront",
-      "agency": "railey",
-      "baths": 3.0,
-      "beds": 3,
-      "community": "Thousand Acres",
-      "coordSource": "js",
-      "id": "railey-camp-lontano",
-      "lat": 39.480502,
-      "listingURL": "https://www.deepcreek.com/vacation-rentals/camp-lontano",
-      "lon": -79.266581,
-      "name": "Camp Lontano",
-      "petFriendly": false,
-      "sleeps": 10,
-      "slug": "camp-lontano",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/22847180-4d0f-455e-a364-ea75c78a45cc&settings=default"
-    },
-    {
       "accessType": "lakeaccess",
       "agency": "railey",
       "baths": 2.0,
@@ -2044,7 +2044,7 @@
       "petFriendly": false,
       "sleeps": 12,
       "slug": "chalet-del-bosco",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/d80713a1-fab6-4c1e-88f1-5b7bc51244bd&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/7ef2ff5a-d360-462f-8c4c-64577d2c56a2&settings=default"
     },
     {
       "accessType": "lakeaccess",
@@ -3324,7 +3324,7 @@
     {
       "accessType": "lakefront",
       "agency": "railey",
-      "baths": 3.0,
+      "baths": 3.5,
       "beds": 5,
       "community": "Lake Shore Dr.",
       "coordSource": "js",
@@ -4186,7 +4186,7 @@
       "petFriendly": false,
       "sleeps": 14,
       "slug": "hundred-acre-wood",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/98ec6f3d-3919-4c47-b1db-5ae51b6e815c&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/bbfc709b-cd65-4aa8-985d-b6b902ddf199&settings=default"
     },
     {
       "accessType": "lakeaccess",
@@ -4645,7 +4645,7 @@
       "petFriendly": false,
       "sleeps": 16,
       "slug": "lake-shore-legacy",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/cf2d4aea-71ea-4c8b-8aee-ccb053ffffa4&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/cf260f80-0f1d-452f-aef4-29ec68a2c04f&settings=default"
     },
     {
       "accessType": "lakefront",
@@ -5002,7 +5002,7 @@
       "petFriendly": false,
       "sleeps": 11,
       "slug": "lazy-bear-lodge",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/3aa0442e-0a7d-420a-b38c-0551e0b97312&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/c87b1023-5180-43d9-a1ba-f1b721cb2e4c&settings=default"
     },
     {
       "accessType": "lakeaccess",
@@ -5632,23 +5632,6 @@
       "sleeps": 12,
       "slug": "moonlight-view",
       "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/26bc2e76-a6c2-488d-85a1-9f91b77ab0ec&settings=default"
-    },
-    {
-      "accessType": "other",
-      "agency": "railey",
-      "baths": 2.0,
-      "beds": 3,
-      "community": "Thousand Acres",
-      "coordSource": "js",
-      "id": "railey-morning-light",
-      "lat": 39.49136,
-      "listingURL": "https://www.deepcreek.com/vacation-rentals/morning-light",
-      "lon": -79.26828,
-      "name": "Morning Light",
-      "petFriendly": true,
-      "sleeps": 8,
-      "slug": "morning-light",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/06943e98-7756-493d-97dc-b67964b8d492&settings=default"
     },
     {
       "accessType": "other",
@@ -6790,23 +6773,6 @@
       "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/a7abbc2d-0336-4355-a2ea-30b7c16002d8&settings=default"
     },
     {
-      "accessType": "lakefront",
-      "agency": "railey",
-      "baths": 5.5,
-      "beds": 5,
-      "community": "Marsh Hill Rd.",
-      "coordSource": "js",
-      "id": "railey-rivendell",
-      "lat": 39.554172,
-      "listingURL": "https://www.deepcreek.com/vacation-rentals/rivendell",
-      "lon": -79.358901,
-      "name": "Rivendell",
-      "petFriendly": false,
-      "sleeps": 14,
-      "slug": "rivendell",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/04766cfd-9d75-47d8-8c12-f9259398c928&settings=default"
-    },
-    {
       "accessType": "other",
       "agency": "railey",
       "baths": 3.0,
@@ -7314,7 +7280,7 @@
       "petFriendly": true,
       "sleeps": 14,
       "slug": "smore-feeling",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/fff43ab7-9c44-4444-9f08-d76c4df7d33d&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/d1b688ae-4f41-43a4-9055-fc026f3a5237&settings=default"
     },
     {
       "accessType": "other",
@@ -7841,7 +7807,7 @@
       "petFriendly": false,
       "sleeps": 11,
       "slug": "tall-timbers",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/8e30f718-5218-4feb-9f9a-fafd4ccb27af&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/ceef4290-ba83-4b3d-9d25-4db9f7ff0365&settings=default"
     },
     {
       "accessType": "lakefront",
@@ -8079,7 +8045,7 @@
       "petFriendly": false,
       "sleeps": 8,
       "slug": "tranquility-found",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/20b0a165-40a4-450f-8714-2f4f4d1a647b&settings=default"
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/7e934720-0fb3-4292-9a08-51f06575c3d6&settings=default"
     },
     {
       "accessType": "lakefront",
@@ -8303,6 +8269,23 @@
       "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/da4e5def-4d20-4080-ba26-bfd5b26f75cc&settings=default"
     },
     {
+      "accessType": "lakeaccess",
+      "agency": "railey",
+      "baths": 3.0,
+      "beds": 1,
+      "community": "Villages of Wisp",
+      "coordSource": "js",
+      "id": "railey-villages-wisp-33-lakeview-court",
+      "lat": 39.549653,
+      "listingURL": "https://www.deepcreek.com/vacation-rentals/villages-wisp-33-lakeview-court",
+      "lon": -79.361564,
+      "name": "Villages of Wisp #33 Lakeview Court",
+      "petFriendly": false,
+      "sleeps": 8,
+      "slug": "villages-wisp-33-lakeview-court",
+      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/efdba52f-b6af-457a-8978-ab643b1c1f22&settings=default"
+    },
+    {
       "accessType": "other",
       "agency": "railey",
       "baths": 3.5,
@@ -8522,23 +8505,6 @@
       "sleeps": 14,
       "slug": "waters-edge-oaks",
       "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/c4725a9f-0186-4285-bd98-c814f0185341&settings=default"
-    },
-    {
-      "accessType": "lakeaccess",
-      "agency": "railey",
-      "baths": 4.5,
-      "beds": 5,
-      "community": "Trader's Landing (Roman Ridge)",
-      "coordSource": "js",
-      "id": "railey-waves-moguls",
-      "lat": 39.52314,
-      "listingURL": "https://www.deepcreek.com/vacation-rentals/waves-moguls",
-      "lon": -79.33621,
-      "name": "Waves & Moguls",
-      "petFriendly": false,
-      "sleeps": 10,
-      "slug": "waves-moguls",
-      "thumbnailURL": "https://images.rezfusion.com?optimize=true&rotate=true&quality=80&width=1600&source=https%3A//img.trackhs.com/x/https%3A//track-pm.s3.amazonaws.com/deepcreek/image/35f4613f-44cc-42f8-a347-385f4788dd31&settings=default"
     },
     {
       "accessType": "lakefront",
@@ -9986,23 +9952,6 @@
       "thumbnailURL": "https://gallery.streamlinevrs.com/stl-default-images/2126/home/554000/1714396395_thumbnail.png"
     },
     {
-      "accessType": "lakefront",
-      "agency": "redbarn",
-      "baths": 8.0,
-      "beds": 8,
-      "community": "Central Deep Creek",
-      "coordSource": "api",
-      "id": "redbarn-ritz-lake",
-      "lat": 39.5016275,
-      "listingURL": "https://redbarnvacations.com/ritz-lake/",
-      "lon": -79.3211398,
-      "name": "Ritz on the Lake",
-      "petFriendly": false,
-      "sleeps": 20,
-      "slug": "ritz-lake",
-      "thumbnailURL": "https://gallery.streamlinevrs.com/stl-default-images/2126/home/776000/1717698505_thumbnail.jpeg"
-    },
-    {
       "accessType": "other",
       "agency": "redbarn",
       "baths": 3.0,
@@ -10683,23 +10632,6 @@
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/f7f20b65-1263-466e-a291-f0af3e4d0646"
     },
     {
-      "accessType": "other",
-      "agency": "taylormade",
-      "baths": 3.0,
-      "beds": 3,
-      "community": "North Deep Creek Lake",
-      "coordSource": "jsonld",
-      "id": "taylormade-0e4f5423-3e5e-419a-a0e7-57efd4616bbb",
-      "lat": 39.553909,
-      "listingURL": "https://deepcreekvacations.com/property/0e4f5423-3e5e-419a-a0e7-57efd4616bbb",
-      "lon": -79.359238,
-      "name": "Happy Landing",
-      "petFriendly": true,
-      "sleeps": 6,
-      "slug": "0e4f5423-3e5e-419a-a0e7-57efd4616bbb",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/3d3b25bd-060a-4473-abc1-6602cbe05b3e"
-    },
-    {
       "accessType": "lakeaccess",
       "agency": "taylormade",
       "baths": 3.0,
@@ -10816,7 +10748,7 @@
       "petFriendly": false,
       "sleeps": 12,
       "slug": "1463b795-eaa9-4fee-adbb-475161085c1b",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/31d69826-a2d7-4ac1-ac0a-9a4b3ac425a6"
+      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/0528a469-b4bb-4240-b2b3-f597968f541a"
     },
     {
       "accessType": "lakeaccess",
@@ -11091,23 +11023,6 @@
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/75f26b44-1e2e-4010-8037-fffcb205dec6"
     },
     {
-      "accessType": "lakefront",
-      "agency": "taylormade",
-      "baths": 2.0,
-      "beds": 3,
-      "community": "North Deep Creek Lake",
-      "coordSource": "jsonld",
-      "id": "taylormade-1d9cf71c-57a7-438c-adba-fedd7966e951",
-      "lat": 39.54892,
-      "listingURL": "https://deepcreekvacations.com/property/1d9cf71c-57a7-438c-adba-fedd7966e951",
-      "lon": -79.35237,
-      "name": "Water's Edge",
-      "petFriendly": true,
-      "sleeps": 10,
-      "slug": "1d9cf71c-57a7-438c-adba-fedd7966e951",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/0df659d8-7c60-4aae-b17d-cbc65b739271"
-    },
-    {
       "accessType": "lakeaccess",
       "agency": "taylormade",
       "baths": 2.0,
@@ -11156,7 +11071,7 @@
       "petFriendly": true,
       "sleeps": 8,
       "slug": "1e717cb4-7957-48de-b719-fb8d1e52f75f",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/409019f7-428c-4443-9ed3-82a4a8d00e99"
+      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/c9319d21-347d-4822-9880-55e229f6dc9a"
     },
     {
       "accessType": "lakeaccess",
@@ -11620,23 +11535,6 @@
     {
       "accessType": "other",
       "agency": "taylormade",
-      "baths": 5.0,
-      "beds": 5,
-      "community": "West Deep Creek Lake",
-      "coordSource": "jsonld",
-      "id": "taylormade-3467abbb-728a-45a4-bb03-79c24df195af",
-      "lat": 39.498978,
-      "listingURL": "https://deepcreekvacations.com/property/3467abbb-728a-45a4-bb03-79c24df195af",
-      "lon": -79.32624,
-      "name": "Whispering Pines",
-      "petFriendly": false,
-      "sleeps": 10,
-      "slug": "3467abbb-728a-45a4-bb03-79c24df195af",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/16f8f093-686c-452b-a6a3-398f9cacdd9a"
-    },
-    {
-      "accessType": "other",
-      "agency": "taylormade",
       "baths": 2.0,
       "beds": 3,
       "community": "West Deep Creek Lake",
@@ -11802,7 +11700,7 @@
       "petFriendly": false,
       "sleeps": 10,
       "slug": "3bfc4bfe-fdc3-46fe-854d-ae9b6efcdc24",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/8db009d3-6737-4445-9be0-bc065cb4dc92"
+      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/8f6d3a38-8ac3-451c-911a-c7aed4af40ab"
     },
     {
       "accessType": "lakeaccess",
@@ -11941,23 +11839,6 @@
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/c6c4fbe0-4b23-4cc9-988e-afad61ac2f84"
     },
     {
-      "accessType": "other",
-      "agency": "taylormade",
-      "baths": 5.0,
-      "beds": 4,
-      "community": "North Deep Creek Lake",
-      "coordSource": "jsonld",
-      "id": "taylormade-3f925d5b-66cd-439b-85f1-9212a845c8aa",
-      "lat": 39.567425,
-      "listingURL": "https://deepcreekvacations.com/property/3f925d5b-66cd-439b-85f1-9212a845c8aa",
-      "lon": -79.391678,
-      "name": "Whistling Bear",
-      "petFriendly": false,
-      "sleeps": 12,
-      "slug": "3f925d5b-66cd-439b-85f1-9212a845c8aa",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/515aa074-04d2-4c68-a340-46fc8edb06db"
-    },
-    {
       "accessType": "lakefront",
       "agency": "taylormade",
       "baths": 4.0,
@@ -11990,23 +11871,6 @@
       "sleeps": 7,
       "slug": "41f25536-da88-4e0c-a347-a5000b71fe27",
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/ce924e7b-f06f-4536-b91d-041cb70e9cbf"
-    },
-    {
-      "accessType": "lakeaccess",
-      "agency": "taylormade",
-      "baths": 2.0,
-      "beds": 3,
-      "community": "North Deep Creek Lake",
-      "coordSource": "jsonld",
-      "id": "taylormade-42149456-f510-4240-a75f-7f830d1c6881",
-      "lat": 39.54888,
-      "listingURL": "https://deepcreekvacations.com/property/42149456-f510-4240-a75f-7f830d1c6881",
-      "lon": -79.3524,
-      "name": "Mountains View",
-      "petFriendly": true,
-      "sleeps": 8,
-      "slug": "42149456-f510-4240-a75f-7f830d1c6881",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/52da0337-e0b9-434a-8526-525c3fdaa5ca"
     },
     {
       "accessType": "other",
@@ -12057,7 +11921,7 @@
       "petFriendly": false,
       "sleeps": 16,
       "slug": "42cff26d-43e9-4b71-acb9-2008f23b69ae",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/77538dec-6200-49ac-a31c-9d566bb06722"
+      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/6b8785b8-43f1-4a4e-8665-c180a1b6efc3"
     },
     {
       "accessType": "other",
@@ -12808,23 +12672,6 @@
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/408a8c0b-7e4c-476e-a374-3f50282bc517"
     },
     {
-      "accessType": "lakefront",
-      "agency": "taylormade",
-      "baths": 8.0,
-      "beds": 6,
-      "community": "West Deep Creek Lake",
-      "coordSource": "jsonld",
-      "id": "taylormade-60170e65-cd3d-4c02-9283-2fc28da3d1e7",
-      "lat": 39.50658,
-      "listingURL": "https://deepcreekvacations.com/property/60170e65-cd3d-4c02-9283-2fc28da3d1e7",
-      "lon": -79.36189,
-      "name": "Boulder House",
-      "petFriendly": false,
-      "sleeps": 16,
-      "slug": "60170e65-cd3d-4c02-9283-2fc28da3d1e7",
-      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/396ed79a-dc58-41bf-9bd3-1d08627ada17"
-    },
-    {
       "accessType": "lakeaccess",
       "agency": "taylormade",
       "baths": 4.0,
@@ -12993,6 +12840,23 @@
       "sleeps": 15,
       "slug": "64b57b48-3091-4575-9ec5-3d1a41783bc7",
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/0086a362-aa05-4fa0-9ea9-c769e612a989"
+    },
+    {
+      "accessType": "lakefront",
+      "agency": "taylormade",
+      "baths": 3.0,
+      "beds": 4,
+      "community": "West Deep Creek Lake",
+      "coordSource": "jsonld",
+      "id": "taylormade-65e14461-0612-4092-87d4-00b8065e9ab4",
+      "lat": 39.50417,
+      "listingURL": "https://deepcreekvacations.com/property/65e14461-0612-4092-87d4-00b8065e9ab4",
+      "lon": -79.31564,
+      "name": "Lakeside Vista",
+      "petFriendly": false,
+      "sleeps": 10,
+      "slug": "65e14461-0612-4092-87d4-00b8065e9ab4",
+      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/58881c90-e622-44e2-ae51-bc587e0f6aac"
     },
     {
       "accessType": "lakefront",
@@ -13235,6 +13099,23 @@
     {
       "accessType": "lakefront",
       "agency": "taylormade",
+      "baths": 3.0,
+      "beds": 3,
+      "community": "North Deep Creek Lake",
+      "coordSource": "jsonld",
+      "id": "taylormade-6e736fc3-9b5a-4bf9-b1c3-e20b06715799",
+      "lat": 39.53574035,
+      "listingURL": "https://deepcreekvacations.com/property/6e736fc3-9b5a-4bf9-b1c3-e20b06715799",
+      "lon": -79.34509073,
+      "name": "Winter Green Lodge",
+      "petFriendly": false,
+      "sleeps": 10,
+      "slug": "6e736fc3-9b5a-4bf9-b1c3-e20b06715799",
+      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/d3d29019-3c71-4699-8c5c-de871882d759"
+    },
+    {
+      "accessType": "lakefront",
+      "agency": "taylormade",
       "baths": 5.0,
       "beds": 5,
       "community": "North Deep Creek Lake",
@@ -13393,9 +13274,9 @@
       "community": "Central Deep Creek Lake",
       "coordSource": "jsonld",
       "id": "taylormade-7600f4e2-c156-4bf6-a2d0-a537e1399b97",
-      "lat": 39.535741,
+      "lat": 39.53571,
       "listingURL": "https://deepcreekvacations.com/property/7600f4e2-c156-4bf6-a2d0-a537e1399b97",
-      "lon": -79.32035,
+      "lon": -79.320332,
       "name": "Hiatus",
       "petFriendly": true,
       "sleeps": 10,
@@ -15596,7 +15477,7 @@
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/1a2c505f-91b9-4ac8-a475-6a2971629fd2"
     },
     {
-      "accessType": "lakefront",
+      "accessType": "other",
       "agency": "taylormade",
       "baths": 5.0,
       "beds": 4,
