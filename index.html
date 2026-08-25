@@ -38,7 +38,7 @@
       <h1 class="rise">Point at the shore.<br>Know the rental.</h1>
       <p class="lede rise">An iPhone app that identifies vacation rentals at Deep Creek Lake — point the
       camera at a lakefront house from a boat or car and it's labeled with the rental
-      agency's name, the distance, and a link to the listing.</p>
+      agency's name, the distance, the bedroom count, and a link to the listing.</p>
       <div class="cta rise">
         <a class="badge-link" href="https://apps.apple.com/us/app/deep-creek-lake-rental-spotter/id6799663323?itscg=30200&amp;itsct=apps_box_badge&amp;mttnsubad=6799663323">
           <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="144" height="48">
@@ -47,9 +47,9 @@
     </section>
 
     <dl class="stats">
-      <div><dt>~900</dt><dd>rentals mapped</dd></div>
+      <div><dt id="rental-count">~980</dt><dd>rentals mapped</dd></div>
       <div><dt>65 mi</dt><dd>of shoreline</dd></div>
-      <div><dt>2</dt><dd>local agencies</dd></div>
+      <div><dt>3</dt><dd>local agencies</dd></div>
       <div><dt>offline</dt><dd>works on the water</dd></div>
     </dl>
 
@@ -65,8 +65,9 @@
         <li>
           <span class="num">02 — SEE</span>
           <h3>The property is labeled in place</h3>
-          <p>Agency name and distance, drawn over the live camera view. Built for
-          moving boats: sensor-based AR that doesn't depend on world tracking.</p>
+          <p>Agency name, distance, and bedroom count, drawn over the live camera
+          view. Built for moving boats: sensor-based AR that doesn't depend on
+          world tracking.</p>
         </li>
         <li>
           <span class="num">03 — TAP</span>
@@ -93,10 +94,27 @@
       <a href="https://github.com/mschmidt18/deep-creek-ar-site/issues">GitHub Issues</a>
     </nav>
     <p class="fineprint">Deep Creek Lake Rental Spotter is an independent app. It is not affiliated with,
-    endorsed by, or sponsored by Railey Vacations (deepcreek.com) or Taylor-Made Deep
-    Creek Vacations (deepcreekvacations.com). Property data is compiled from those
-    agencies' public listing pages and always links back to them.</p>
+    endorsed by, or sponsored by Railey Vacations (deepcreek.com), Taylor-Made Deep
+    Creek Vacations (deepcreekvacations.com), or Red Barn Vacations
+    (redbarnvacations.com). Property data is compiled from those agencies' public
+    listing pages and always links back to them.</p>
   </footer>
 </div>
+
+<script>
+/* The "rentals mapped" stat mirrors data/properties-v2.json — the same hosted
+   dataset the app polls — so publishing a new dataset updates it with no page
+   edit. The approximate figure in the markup stands whenever the fetch or JS
+   is unavailable. */
+fetch("data/properties-v2.json")
+  .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+  .then(function (d) {
+    if (Array.isArray(d.properties) && d.properties.length > 0) {
+      document.getElementById("rental-count").textContent =
+        d.properties.length.toLocaleString("en-US");
+    }
+  })
+  .catch(function () {});
+</script>
 </body>
 </html>
