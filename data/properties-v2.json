@@ -2,9 +2,9 @@
   "counts": {
     "railey": 525,
     "redbarn": 83,
-    "taylormade": 367
+    "taylormade": 368
   },
-  "generatedAt": "2026-08-25T13:19:43.459472+00:00",
+  "generatedAt": "2026-08-25T15:36:23.110875+00:00",
   "properties": [
     {
       "accessType": "lakeaccess",
@@ -11535,6 +11535,23 @@
     {
       "accessType": "other",
       "agency": "taylormade",
+      "baths": 5.0,
+      "beds": 5,
+      "community": "West Deep Creek Lake",
+      "coordSource": "jsonld",
+      "id": "taylormade-3467abbb-728a-45a4-bb03-79c24df195af",
+      "lat": 39.498978,
+      "listingURL": "https://deepcreekvacations.com/property/3467abbb-728a-45a4-bb03-79c24df195af",
+      "lon": -79.32624,
+      "name": "Whispering Pines",
+      "petFriendly": false,
+      "sleeps": 10,
+      "slug": "3467abbb-728a-45a4-bb03-79c24df195af",
+      "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/16f8f093-686c-452b-a6a3-398f9cacdd9a"
+    },
+    {
+      "accessType": "other",
+      "agency": "taylormade",
       "baths": 2.0,
       "beds": 3,
       "community": "West Deep Creek Lake",
@@ -15477,7 +15494,7 @@
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/1a2c505f-91b9-4ac8-a475-6a2971629fd2"
     },
     {
-      "accessType": "other",
+      "accessType": "lakefront",
       "agency": "taylormade",
       "baths": 5.0,
       "beds": 4,
@@ -15511,7 +15528,7 @@
       "thumbnailURL": "https://track-pm.s3.amazonaws.com/deepcreekvacations/image/0382e34f-5c3e-4364-a4bb-43b37260fa4e"
     },
     {
-      "accessType": "lakefront",
+      "accessType": "other",
       "agency": "taylormade",
       "baths": 4.0,
       "beds": 4,
