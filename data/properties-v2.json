@@ -4,7 +4,7 @@
     "redbarn": 83,
     "taylormade": 368
   },
-  "generatedAt": "2026-08-25T15:36:23.110875+00:00",
+  "generatedAt": "2026-08-27T00:29:37.943136+00:00",
   "properties": [
     {
       "accessType": "lakeaccess",
@@ -9056,11 +9056,11 @@
       "baths": 5.0,
       "beds": 5,
       "community": "Lake Pointe",
-      "coordSource": "api",
+      "coordSource": "corrected",
       "id": "redbarn-best-both-worlds",
-      "lat": 39.556957,
+      "lat": 39.555831,
       "listingURL": "https://redbarnvacations.com/best-both-worlds/",
-      "lon": -79.358202,
+      "lon": -79.358547,
       "name": "Best of Both Worlds",
       "petFriendly": true,
       "sleeps": 14,
